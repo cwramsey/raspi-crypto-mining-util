@@ -6,6 +6,8 @@ This also installs [tmux](https://github.com/tmux/tmux) to allow for running the
 
 ## How to use
 
-After cloning the repo, you'll want to run `./install.sh` to setup the necessary dependencies (one time only is fine) and then run `./run.sh` to kick off a tmux session.
+After cloning the repo, you'll want to mark `./install.sh` and `run.sh` as executable with `chmod +x ./*.sh` in the repo directory.
+
+You'll then need to run `./install.sh` to setup the necessary dependencies (one time only is fine) and then run `./run.sh` to kick off a tmux session.
 
 The session will be named `mining` so it's easy to identify at a later date.
